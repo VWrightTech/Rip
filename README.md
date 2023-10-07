@@ -1,5 +1,6 @@
+<img src="https://i.imgur.com/x0MFl0y.png" height="100%" width="100%">
 
-## <h1> RIP Routing <h1/>
+## RIP Routing
   
  Stands for Routing Information Protocol. It is an Entries and Distance
 vector Routing Protocol.Maximum hop count limit is 15 Hop (16 Hop will unreadable)
@@ -30,7 +31,7 @@ Route Hold down Time :- 180 second
 <br/>
 Route Flush Time :- 240 second>
 
-## <h2> RIP Router Topology <h2/>
+## RIP Router Topology 
 Enable Interface of R3, R3 And R3 (Serial and Fast Ethernet)
 <br/>
 Router 1
@@ -121,41 +122,18 @@ R3 (Config-if)#do show ip int br
 <br/>
 R3 (Config-if)#^Z
 <br/>
-Assign IP Address in All PC
+
+## Assign IP Address in All PC 
+### Step 1 Click on PC , Go to Desktop and click , Click on IP configuration
+
+<img src="https://i.imgur.com/tnjwJNY.png" height="100%" width="100%"> 
 <br/>
 <br/>
-Step 1 Click on PC , Go to Desktop and click , Click on IP configuration
+
 <br/>
-R1
+<img src="https://i.imgur.com/IbzqI2J.png" height="100%" width="100%">
 <br/>
-PC 1 PC 2
-<br/>
-Ip address 192.168.0.2 Ip address 192.168.0.3
-<br/>
-Subnet Mark 255.255.255.0 Subnet Mark 255.255.255.0
-<br/>
-Default Gateway 192.168.0.1 Default Gateway 192.168.0.1
-<br/>
-R2
-<br/>
-PC 3 PC 4
-<br/>
-Ip address 172.168.0.2 Ip address 172.168.0.3
-<br/>
-Subnet Mark 255.255.0.0 Subnet Mark 255.255.0.0
-<br/>
-Default Gateway172.168.0.1 Default Gateway 172.168.0.1
-<br/>
-R3
-<br/>
-PC 5 PC 6
-<br/>
-Ip address 125.168.0.2 Ip address 125.168.0.3
-<br/>
-Subnet Mark 255.0.0.0 Subnet Mark 255.0.0.0
-<br/>
-Default Gateway 125.168.0.1 Default Gateway 125.168.0.1
-<br/>
+
 ## Enable Router
 <br/>
 R1>en
